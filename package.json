@@ -1,6 +1,6 @@
 {
   "name": "karma-emblem-preprocessor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compile .emblem templates for karma",
   "main": "./lib/main",
   "bin":{
@@ -21,7 +21,6 @@
     "email": "cameronellis.ellis@gmail.com"
   },
   "dependencies": [
-    "ember",
     "handlebars",
     "emblem"
   ],
