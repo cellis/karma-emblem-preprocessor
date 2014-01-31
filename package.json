@@ -21,8 +21,8 @@
     "email": "cameronellis.ellis@gmail.com"
   },
   "dependencies": [
-    "ember"
-    "handlebars"
+    "ember",
+    "handlebars",
     "emblem"
   ],
   "licenses": [
