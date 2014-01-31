@@ -1,0 +1,34 @@
+{
+  "name": "karma-emblem-preprocessor",
+  "version": "0.0.1",
+  "description": "Compile .emblem templates for karma",
+  "main": "./lib/main",
+  "bin":{
+    "karma-emblem-preprocessor": "./bin/preprocessor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellis/karma-emblem-preprocessor"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "ember",
+    "handlebars"
+  ],
+  "author": {
+    "name": "Cameron Ellis",
+    "email": "cameronellis.ellis@gmail.com"
+  },
+  "dependencies": [
+    "ember"
+    "handlebars"
+    "emblem"
+  ],
+  "licenses": [
+    "MIT"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
