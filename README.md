@@ -18,13 +18,31 @@ Next you need to create a configuration file using karma init
             basePath: 'js',
 
             files: [
-              "vendor/jquery/jquery.min.js",
-              "vendor/handlebars/handlebars.js",
-              "vendor/ember/ember.js",
-              "app.js",
-              "tests/*.js",
-              "templates/*.handlebars"
+
+              {pattern: 'bower_components/jquery/jquery.js',            included: false},
+              # {pattern: 'bower_components/ember/ember.js',              included: false},
+              {pattern: 'bower_components/expect/expect.js',            included: false},
+              {pattern: 'vendor/scripts/*.js',                          included: false},
+              {pattern: 'app/initialize.coffee',                        included: false},
+              {pattern: 'app/**/*.coffee',                              included: false},
+              {pattern: 'test/**/*_spec.coffee',                        included: false},
+              {pattern: 'test/*.coffee',                                included: false},
+
+              'test/test-main.js',
+
+              'bower_components/ember/ember.js',
+              'app/templates/*.emblem'
+
             ],
+
+            karmaEmblemPreprocessor: {
+              paths: {
+                jquery: 'bower_components/jquery/jquery.js',
+                ember: 'bower_components/ember/ember.js',
+                handlebars: 'bower_components/handlebars/handlebars.js',
+                emblem: 'vendor/scripts/emblem.js'
+              }
+            }
 
             logLevel: karma.LOG_ERROR,
             browsers: ['PhantomJS'],
