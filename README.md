@@ -20,7 +20,7 @@ Next you need to create a configuration file using karma init
             files: [
 
               {pattern: 'bower_components/jquery/jquery.js',            included: false},
-              # {pattern: 'bower_components/ember/ember.js',              included: false},
+              # {pattern: 'bower_components/ember/ember.js',            included: false},
               {pattern: 'bower_components/expect/expect.js',            included: false},
               {pattern: 'vendor/scripts/*.js',                          included: false},
               {pattern: 'app/initialize.coffee',                        included: false},
