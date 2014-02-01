@@ -20,12 +20,10 @@
     "name": "Cameron Ellis",
     "email": "cameronellis.ellis@gmail.com"
   },
-  "dependencies": [
-    "jsdom"
-  ],
-  "licenses": [
-    "MIT"
-  ],
+  "dependencies": {
+    "jsdom": "0.2"
+  },
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
