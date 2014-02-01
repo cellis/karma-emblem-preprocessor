@@ -21,8 +21,7 @@
     "email": "cameronellis.ellis@gmail.com"
   },
   "dependencies": [
-    "handlebars",
-    "emblem"
+    "jsdom"
   ],
   "licenses": [
     "MIT"
